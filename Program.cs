@@ -12,6 +12,8 @@ namespace process
             o.data();
             o.sum();
             o.res();
+            o.mult();
+            o.div();
 
 
             Console.ReadKey();
@@ -55,6 +57,16 @@ class acciones
     public void res()
     {
         Console.WriteLine("La resta de {0} - {1} es {2}", a, b, a - b);
+    }
+    public void mult()
+    {
+        Console.WriteLine("La multiplicacion de{0} x {1} es {2}", a, b, a * b);
+    }
+
+
+    public void div()
+    {
+        Console.WriteLine("La divicion de {0} / {1} es {2}", a, b, a / b);
     }
 
 
